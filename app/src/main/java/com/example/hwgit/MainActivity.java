@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
 	Toast secondToast = Toast.makeText(getApplicationContext(), "Правда важный", Toast.LENGTH_SHORT);
 	toast.show();
 	secondToast.show();
+
     }
 }
