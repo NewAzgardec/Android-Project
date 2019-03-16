@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
 	Toast toast = Toast.makeText(getApplicationContext(), "Это самый важный текст в вашей жизни", Toast.LENGTH_SHORT);
 	toast.show();
+
     }
 }
