@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 	Toast toast = Toast.makeText(getApplicationContext(), "Это самый важный текст в вашей жизни", Toast.LENGTH_SHORT);
+	Toast secondToast = Toast.makeText(getApplicationContext(), "Правда важный", Toast.LENGTH_SHORT);
 	toast.show();
+	secondToast.show();
     }
 }
